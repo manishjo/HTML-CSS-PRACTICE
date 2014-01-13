@@ -1,0 +1,14 @@
+html
+  head
+    title Show List
+    link(type='text/css', rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h3  #{message}
+    table
+      tr
+        th Name
+        th Score
+      -each val in list
+       tr
+         td #{val.Name}
+         td #{val.score}

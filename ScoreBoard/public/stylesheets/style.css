@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table{
+	border-collapse: collapse; 
+}
+th{
+	background: yellow;
+	border: 2px solid black;
+	border-collapse: collapse; 
+}
+
+td{
+	background: red;
+	border: 2px solid black;
+	border-collapse: collapse; 
+}
